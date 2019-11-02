@@ -1,0 +1,48 @@
+{
+  "name": "weather-app",
+  "description": "test weather app",
+  "main": "src/index.js",
+  "version": "1.0.0",
+  "private": true,
+  "author": "illinifellow@gmail.com",
+  "homepage": "https://weather-app.illinifellow.com/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:illinifellow/weather-app.git"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "classnames": "^2.2.6",
+    "dateformat": "^3.0.3",
+    "query-string": "^6.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-grid-system": "^6.0.3",
+    "react-hot-loader": "^4.7.1",
+    "react-icons": "^3.7.0",
+    "react-redux": "5.0.7",
+    "react-router": "^5.1.2",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.8",
+    "redux": "4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

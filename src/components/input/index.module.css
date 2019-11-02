@@ -1,0 +1,113 @@
+.field {
+}
+
+.row {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.fieldLabelPrefixIcon,
+.fieldLabelActionIcon {
+  display: flex;
+  position: absolute;
+}
+
+.fieldLabelPrefixIcon {
+  left: 0;
+}
+
+.fieldLabelActionIcon {
+  cursor: pointer;
+  right: 0;
+}
+
+.fieldLabelPrefixIcon svg,
+.fieldLabelActionIcon svg {
+  font-size: 1.5rem;
+  z-index: 10;
+  margin: 0 1rem;
+  color: #bbbbbb;
+}
+
+.fieldValue {
+  position: relative;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem 2em;
+  z-index: 9;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.fieldValue[type="number"]::-webkit-inner-spin-button,
+.fieldValue[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+}
+
+.fieldValueError {
+  /* border: 1px solid #ff5e5e !important; */
+}
+
+.fieldValueError + .fieldLabelPrefixIcon svg {
+  /* color: #ff5e5e !important; */
+}
+
+.fieldValueHasValue {
+  /* border: 1px solid #484848; */
+}
+
+.fieldValueHasValue + .fieldLabelPrefixIcon svg {
+  /* color: #484848; */
+}
+
+.fieldValue:active,
+.fieldValue:focus {
+  /* border: 1px solid #45bbd3; */
+}
+
+.fieldValue:active + .fieldLabelPrefixIcon svg,
+.fieldValue:focus + .fieldLabelPrefixIcon svg {
+  /* color: #45bbd3; */
+}
+
+.fieldError {
+  position: absolute;
+  top: 100%;
+  color: #ff5e5e !important;
+  line-height: 1rem;
+  font-size: 1rem;
+  padding: 0.2rem 0;
+}
+
+.fieldOptions {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  border-radius: 0 0 3px 3px;
+  width: 100%;
+  margin-top: -6px;
+  padding-top: 6px;
+  background-color: #fff;
+  z-index: 101;
+  overflow: hidden;
+}
+
+.fieldOptionsItem {
+  color: #484848;
+  width: 100%;
+  line-height: 1.3rem;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.fieldOptionsItem:hover {
+  background-color: #d1d1d1;
+}

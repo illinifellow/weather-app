@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 100;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 1.5rem;
+  height: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+}
+
+.link.active svg {
+  color: #ce0000 !important;
+}
+
+.link svg {
+  transition: color 0.11s;
+}

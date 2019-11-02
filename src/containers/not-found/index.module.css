@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  font-size: 27rem;
+  line-height: 27rem;
+  font-weight: bold;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("//66.media.tumblr.com/cd0018c36fbf319096deff66d1b21f01/tumblr_or75fbI2Bi1uau21io1_1280.gif");
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 1rem 1rem 0px rgba(0, 0, 0, 0.1);
+}

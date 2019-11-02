@@ -1,0 +1,37 @@
+.favorites {
+  display: flex;
+  flex-grow: 1;
+  z-index: 1;
+  padding: 3rem 1rem 1rem;
+  background: #70b4ba;
+  transition: background 0.5s ease-in-out;
+}
+
+.favoritesGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+  padding: 1rem 0;
+}
+
+.favoritesNoTitle {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.favoritesNoTitle h1,
+.favoritesNoTitle a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.favoritesNoTitle h1 {
+  font-size: 2.5rem;
+}
+
+.favoritesNoTitle a {
+  text-align: center;
+  font-size: 1.5rem;
+}

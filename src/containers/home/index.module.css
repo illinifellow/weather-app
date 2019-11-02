@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  z-index: 1;
+  padding: 3rem 1rem 1rem;
+  background: #70b4ba;
+  transition: background 0.5s ease-in-out;
+}
+
+.homeLoader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #70b4ba;
+  z-index: 1000;
+}
+
+.home.active {
+  background: #ebe450;
+  justify-content: initial;
+}
+
+.search {
+  width: 100%;
+  max-width: 34rem;
+  margin: 1rem 0;
+  transform: scale(1);
+}
+
+.forecast {
+  margin: 0 -0.5rem !important;
+}
+
+.forecast div div {
+  display: flex;
+  flex-direction: column;
+}

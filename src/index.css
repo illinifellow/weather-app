@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+  min-width: 375px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+  position: relative;
+  font-size: 14px;
+  font-family: "Helvetica Neue", "Helvetica", "Open Sans", sans-serif;
+  line-height: 20px;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+  color: #454545;
+  user-select: none;
+}
+
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  overflow-x: hidden;
+}
